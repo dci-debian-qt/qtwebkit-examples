@@ -21,6 +21,8 @@ Build-Depends: debhelper (>= 9),
                libsqlite3-dev,
                libglib2.0-dev,
                libqt5xmlpatterns5-dev
+Build-Depends-Indep: libqt5sql5-sqlite,
+                     qttools5-dev-tools (>= 5.0.2~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt5webkit-examples.git
@@ -51,3 +53,26 @@ Description: Qt 5 webkit examples debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 webkit examples.
+
+Package: qtwebkit5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 webkit examples documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webkit examples.
+
+Package: qtwebkit5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 webkit examples HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 webkit
+ examples.
