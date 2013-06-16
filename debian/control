@@ -1,0 +1,53 @@
+Source: qtwebkit-examples-and-demos-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Felix Geyer <fgeyer@debian.org>,
+           Timo Jyrinki <timo@debian.org>
+Build-Depends: debhelper (>= 9),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.0.2~),
+               libqt5webkit5-dev,
+               qtdeclarative5-dev,
+               libqt5opengl5-dev,
+               libxslt1-dev,
+               libgstreamer0.10-dev,
+               libgstreamer-plugins-base0.10-dev,
+               libsqlite3-dev,
+               libglib2.0-dev,
+               libqt5xmlpatterns5-dev
+Standards-Version: 3.9.4
+Homepage: http://qt-project.org/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt5webkit-examples.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt5webkit-examples.git
+
+Package: qtwebkit5-examples
+Architecture: any
+Multi-Arch: same
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 webkit examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 webkit module.
+
+Package: qtwebkit5-examples-dbg
+Architecture: any
+Priority: extra
+Multi-Arch: same
+Section: debug
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: qtwebkit5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 webkit examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 webkit examples.
