@@ -54,7 +54,7 @@ Description: Qt 5 webkit examples debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 webkit examples.
 
-Package: qtwebkit5-doc
+Package: qtwebkit5-examples-doc
 Priority: extra
 Architecture: all
 Section: doc
@@ -65,7 +65,7 @@ Description: Qt 5 webkit examples documentation
  .
  This package contains the documentation for the Qt 5 webkit examples.
 
-Package: qtwebkit5-doc-html
+Package: qtwebkit5-examples-doc-html
 Priority: extra
 Architecture: all
 Section: doc
