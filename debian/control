@@ -1,4 +1,4 @@
-Source: qtwebkit-examples-and-demos-opensource-src
+Source: qtwebkit-examples-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
