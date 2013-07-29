@@ -25,8 +25,8 @@ Build-Depends-Indep: libqt5sql5-sqlite,
                      qttools5-dev-tools (>= 5.0.2~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt5webkit-examples.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt5webkit-examples.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtwebkit-examples.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtwebkit-examples.git
 
 Package: qtwebkit5-examples
 Architecture: any
