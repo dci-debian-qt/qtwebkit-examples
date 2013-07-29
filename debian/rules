@@ -24,8 +24,14 @@ override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_install-arch:
+	# We will replace jquery.min.js with a symbolic link to a packaged version.
+	rm -rf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
 	dh_auto_install
-	
+
+override_dh_link:
+	dh_link -p qtwebkit5-examples /usr/share/javascript/jquery/jquery.min.js \
+		usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
+
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
