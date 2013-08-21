@@ -27,6 +27,10 @@ override_dh_auto_install-arch:
 	# We will replace jquery.min.js with a symbolic link to a packaged version.
 	rm -rf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
 	dh_auto_install
+	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/ \
+		-perm /u+x,g+x,o+x -type f \
+                -regex '.*\.\(app\|conf\|cpp\|h\|html\|js\|php\|png\|pro\|xml\|xsl\)$$' \
+                -exec chmod a-x {} \;
 
 override_dh_link:
 	dh_link -p qtwebkit5-examples /usr/share/javascript/jquery/jquery.min.js \
