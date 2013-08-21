@@ -1,5 +1,5 @@
-qtwebkit-examples-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtwebkit-examples-opensource-src (5.1.0-1) unstable; urgency=low
 
   * Initial release (Closes: #697509).
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Jun 2013 23:26:19 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Aug 2013 17:49:04 -0300
