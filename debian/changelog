@@ -1,6 +1,5 @@
-qtwebkit-examples-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
+qtwebkit-examples-opensource-src (5.1.1+dfsg-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Remove jquery javascript library shipped without source code
     (Closes: #723035).
@@ -13,7 +12,7 @@ qtwebkit-examples-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
         symlink to the system provided one.
     - Adjust debian/watch to mangle 'dfsg'.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Oct 2013 10:57:52 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 20 Oct 2013 12:11:54 -0300
 
 qtwebkit-examples-opensource-src (5.1.0-2) unstable; urgency=low
 
