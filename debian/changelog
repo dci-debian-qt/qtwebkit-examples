@@ -5,7 +5,11 @@ qtwebkit-examples-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     (Closes: #723035).
     - Repackage source tarball and add +dfsg to the version.
     - Add prune-nonfree to debian/rules to remove non free stuff.
-    - Modify debian/rules to not delete the file we are not shipping.
+    - Modify debian/rules:
+      - Create a fake jquery.min.js. The build system needs to find it in order
+        to be able to install it.
+      - Once things are installed, remove the fake file and replace it with a
+        symlink to the system provided one.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Oct 2013 10:57:52 -0300
 
