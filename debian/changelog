@@ -1,4 +1,9 @@
-qtwebkit-examples-opensource-src (5.1.0-3) UNRELEASED; urgency=low
+qtwebkit-examples-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove jquery javascript library shipped without source code
+    (Closes: #723035).
+    - Repackage source tarball and add +dfsg to the version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Oct 2013 10:57:52 -0300
 
