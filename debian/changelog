@@ -10,6 +10,7 @@ qtwebkit-examples-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
         to be able to install it.
       - Once things are installed, remove the fake file and replace it with a
         symlink to the system provided one.
+    - Adjust debian/watch to mangle 'dfsg'.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Oct 2013 10:57:52 -0300
 
