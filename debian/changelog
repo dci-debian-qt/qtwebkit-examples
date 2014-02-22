@@ -5,6 +5,7 @@ qtwebkit-examples-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies.
   * Use Files-Excluded in debian/copyright in order to let uscan create the
     proper tarball.
+  * Add libicu-dev as build dependency, it is now required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Feb 2014 17:31:56 -0300
 
