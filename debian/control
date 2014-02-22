@@ -11,18 +11,18 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.2.0+dfsg~),
-               libqt5webkit5-dev (>= 5.2.0~),
-               qtdeclarative5-dev (>= 5.2.0~),
-               libqt5opengl5-dev (>= 5.2.0+dfsg~),
+               qtbase5-dev (>= 5.2.1+dfsg~),
+               libqt5webkit5-dev (>= 5.2.1~),
+               qtdeclarative5-dev (>= 5.2.1~),
+               libqt5opengl5-dev (>= 5.2.1+dfsg~),
                libxslt1-dev,
                libgstreamer0.10-dev,
                libgstreamer-plugins-base0.10-dev,
                libsqlite3-dev,
                libglib2.0-dev,
-               libqt5xmlpatterns5-dev (>= 5.2.0~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.2.0+dfsg~),
-                     qttools5-dev-tools (>= 5.2.0~)
+               libqt5xmlpatterns5-dev (>= 5.2.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.2.1+dfsg~),
+                     qttools5-dev-tools (>= 5.2.1~)
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtwebkit-examples.git
