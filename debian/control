@@ -10,17 +10,17 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
+               libglib2.0-dev,
+               libgstreamer-plugins-base0.10-dev,
+               libgstreamer0.10-dev,
+               libqt5opengl5-dev (>= 5.2.1+dfsg~),
+               libqt5webkit5-dev (>= 5.2.1~),
+               libqt5xmlpatterns5-dev (>= 5.2.1~),
+               libsqlite3-dev,
+               libxslt1-dev,
                pkg-kde-tools,
                qtbase5-dev (>= 5.2.1+dfsg~),
-               libqt5webkit5-dev (>= 5.2.1~),
-               qtdeclarative5-dev (>= 5.2.1~),
-               libqt5opengl5-dev (>= 5.2.1+dfsg~),
-               libxslt1-dev,
-               libgstreamer0.10-dev,
-               libgstreamer-plugins-base0.10-dev,
-               libsqlite3-dev,
-               libglib2.0-dev,
-               libqt5xmlpatterns5-dev (>= 5.2.1~)
+               qtdeclarative5-dev (>= 5.2.1~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.2.1+dfsg~),
                      qttools5-dev-tools (>= 5.2.1~)
 Standards-Version: 3.9.5
@@ -46,8 +46,7 @@ Priority: extra
 Multi-Arch: same
 Section: debug
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: qtwebkit5-examples (= ${binary:Version}),
-         ${misc:Depends}
+Depends: qtwebkit5-examples (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 webkit examples debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
