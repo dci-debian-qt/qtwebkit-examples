@@ -1,11 +1,10 @@
-qtwebkit-examples-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.3.0+dfsg-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Do not override dh_builddeb, xz is now the default compression method.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2014 18:55:58 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 May 2014 19:06:43 -0300
 
 qtwebkit-examples-opensource-src (5.2.1+dfsg-2) unstable; urgency=medium
 
