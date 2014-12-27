@@ -23,6 +23,7 @@ override_dh_auto_configure:
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -rf doc/qtwebkitexamples doc/qtwebkitexamples.qch .qmake.cache
+	rm -fv examples/webkitwidgets/fancybrowser/jquery.min.js
 
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
@@ -45,7 +46,3 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
-
-prune-nonfree:
-	# No source code for jquery is shipped.
-	rm -fv examples/webkitwidgets/fancybrowser/jquery.min.js

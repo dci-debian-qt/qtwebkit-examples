@@ -5,6 +5,7 @@ qtwebkit-examples-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Update build-dependencies for Qt 5.4.0.
   * Build-depend on qtbase5-doc-html and qtwebkit5-doc-html,
     for docs linking.
+  * Simplify debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 19:57:19 +0300
 
