@@ -8,6 +8,7 @@ qtwebkit-examples-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Simplify debian/rules.
   * Update debian/copyright for LGPLv3 addition.
   * Update Vcs-Browser field to point to cgit interface.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 19:57:19 +0300
 
