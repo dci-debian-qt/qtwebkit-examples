@@ -1,6 +1,5 @@
-qtwebkit-examples-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update build-dependencies for Qt 5.4.0.
   * Build-depend on qtbase5-doc-html and qtwebkit5-doc-html,
@@ -11,7 +10,7 @@ qtwebkit-examples-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 19:57:19 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 27 Dec 2014 20:24:00 +0300
 
 qtwebkit-examples-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
 
