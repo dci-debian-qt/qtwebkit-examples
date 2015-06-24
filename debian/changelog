@@ -1,3 +1,9 @@
+qtwebkit-examples-opensource-src (5.4.2+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Jun 2015 17:58:29 -0300
+
 qtwebkit-examples-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
