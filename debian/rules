@@ -30,7 +30,7 @@ override_dh_auto_build-indep:
 
 override_dh_auto_install-arch:
 	# We will replace the fake jquery.min.js with a symbolic link to a packaged version.
-	rm -rf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
+	rm -f $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
 	dh_auto_install
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/ \
 		-perm /u+x,g+x,o+x -type f \
