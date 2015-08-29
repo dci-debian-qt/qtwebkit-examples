@@ -4,6 +4,8 @@ qtwebkit-examples-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
   * Update debian/copyright.
+  * Add empty override_dh_auto_test target to prevent compiling the examples
+    during indep builds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2015 15:39:05 +0300
 
