@@ -10,8 +10,6 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                libglib2.0-dev,
-               libgstreamer-plugins-base0.10-dev,
-               libgstreamer0.10-dev,
                libicu-dev,
                libqt5opengl5-dev (>= 5.5.0+dfsg~),
                libqt5webkit5-dev (>= 5.5.0+dfsg~),
