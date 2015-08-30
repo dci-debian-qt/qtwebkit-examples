@@ -21,8 +21,10 @@ Build-Depends: debhelper (>= 9),
                qtdeclarative5-dev (>= 5.5.0~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.0+dfsg~),
                      qtbase5-doc-html (>= 5.5.0+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.5.0~),
                      qttools5-dev-tools (>= 5.5.0~),
-                     qtwebkit5-doc-html (>= 5.5.0+dfsg~)
+                     qtwebkit5-doc-html (>= 5.5.0+dfsg~),
+                     qtxmlpatterns5-doc-html (>= 5.5.0~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtwebkit-examples.git
