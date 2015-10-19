@@ -1,4 +1,4 @@
-qtwebkit-examples-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.5.1+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Build-depend on qtdeclarative5-doc-html and qtxmlpatterns5-doc-html,
@@ -8,7 +8,7 @@ qtwebkit-examples-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 14:02:13 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 19 Oct 2015 12:28:33 -0300
 
 qtwebkit-examples-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
 
