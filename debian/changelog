@@ -1,4 +1,7 @@
-qtwebkit-examples-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.6.1+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release (Closes: #828783).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 12:31:57 -0300
 
