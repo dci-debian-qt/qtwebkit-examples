@@ -1,3 +1,9 @@
+qtwebkit-examples-opensource-src (5.6.1+dfsg-1~bpo8+1) UNRELEASED; urgency=medium
+
+  * Upload to jessie-backports.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jul 2016 20:34:29 -0300
+
 qtwebkit-examples-opensource-src (5.6.1+dfsg-1) unstable; urgency=medium
 
   * New upstream release (Closes: #828783).
