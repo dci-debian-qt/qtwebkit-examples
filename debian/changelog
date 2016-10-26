@@ -1,3 +1,11 @@
+qtwebkit-examples-opensource-src (5.6.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #828783).
+  * Bump Standards-Version to 3.9.8, no changes required.
+  * Use https in Vcs-[Git Browser] URLs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 28 Jun 2016 12:48:20 -0300
+
 qtwebkit-examples-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 17:28:14 -0300
