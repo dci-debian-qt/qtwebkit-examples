@@ -11,20 +11,20 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 9),
                libglib2.0-dev,
                libicu-dev,
-               libqt5opengl5-dev (>= 5.5.1+dfsg~),
-               libqt5webkit5-dev (>= 5.5.1+dfsg~),
-               libqt5xmlpatterns5-dev (>= 5.5.1~),
+               libqt5opengl5-dev (>= 5.7.1~20161021+dfsg~),
+               libqt5webkit5-dev (>= 5.7.1~20161021+dfsg~),
+               libqt5xmlpatterns5-dev (>= 5.7.1~20161021~),
                libsqlite3-dev,
                libxslt1-dev,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.5.1+dfsg~),
-               qtdeclarative5-dev (>= 5.5.1~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.1+dfsg~),
-                     qtbase5-doc-html (>= 5.5.1+dfsg~),
-                     qtdeclarative5-doc-html (>= 5.5.1~),
-                     qttools5-dev-tools (>= 5.5.1~),
-                     qtwebkit5-doc-html (>= 5.5.1+dfsg~),
-                     qtxmlpatterns5-doc-html (>= 5.5.1~)
+               qtbase5-dev (>= 5.7.1~20161021+dfsg~),
+               qtdeclarative5-dev (>= 5.7.1~20161021~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
+                     qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.7.1~20161021~),
+                     qttools5-dev-tools (>= 5.7.1~20161021~),
+                     qtwebkit5-doc-html (>= 5.7.1~20161021+dfsg~),
+                     qtxmlpatterns5-doc-html (>= 5.7.1~20161021~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebkit-examples.git
