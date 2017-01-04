@@ -1,6 +1,7 @@
 qtwebkit-examples-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
 
   * Update the debian/watch file.
+  * Migrate to an automatic dbgsym package.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Jan 2017 20:06:01 +0300
 

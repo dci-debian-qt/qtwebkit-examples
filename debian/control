@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                libglib2.0-dev,
                libicu-dev,
                libqt5opengl5-dev (>= 5.7.1~20161021+dfsg~),
@@ -41,19 +41,6 @@ Description: Qt 5 webkit examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains examples of the Qt 5 webkit module.
-
-Package: qtwebkit5-examples-dbg
-Architecture: any
-Priority: extra
-Multi-Arch: same
-Section: debug
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: qtwebkit5-examples (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 webkit examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 webkit examples.
 
 Package: qtwebkit5-examples-doc
 Priority: extra
