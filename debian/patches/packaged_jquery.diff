@@ -1,0 +1,26 @@
+Description: update to use packaged jQuery
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: not-needed
+Last-Update: 2017-01-04
+
+--- a/examples/webkitwidgets/fancybrowser/fancybrowser.pro
++++ b/examples/webkitwidgets/fancybrowser/fancybrowser.pro
+@@ -2,7 +2,6 @@
+ HEADERS =   mainwindow.h
+ SOURCES =   main.cpp \
+             mainwindow.cpp
+-RESOURCES = jquery.qrc
+ 
+ # install
+ target.path = $$[QT_INSTALL_EXAMPLES]/webkitwidgets/fancybrowser
+--- a/examples/webkitwidgets/fancybrowser/mainwindow.cpp
++++ b/examples/webkitwidgets/fancybrowser/mainwindow.cpp
+@@ -50,7 +50,7 @@
+     progress = 0;
+ 
+     QFile file;
+-    file.setFileName(":/jquery.min.js");
++    file.setFileName("/usr/share/javascript/jquery/jquery.min.js");
+     file.open(QIODevice::ReadOnly);
+     jQuery = file.readAll();
+     jQuery.append("\nvar qt = { 'jQuery': jQuery.noConflict(true) };");
