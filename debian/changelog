@@ -1,7 +1,9 @@
-qtwebkit-examples-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update debian/watch to reflect the new upstream location of the tarball.
+  * examples/webkitwidgets/fancybrowser/jquery.min.js is no longer found, so
+    we can drop +dfsg. Update debian/watch and debian/copyright appropriately.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:07:36 -0500
 
