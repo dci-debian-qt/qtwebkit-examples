@@ -1,2 +1,3 @@
 version=3
-https://download.qt.io/community_releases/([\d\.]*)/([\d\.]*)-final/qtwebkit-opensource-src-([^-]*)\.tar\.xz
+opts=dversionmangle=s/\+dfsg// \
+https://download.qt.io/community_releases/([\d\.]*)/([\d\.]*)-final/qtwebkit-examples-opensource-src-([^-]*)\.tar\.xz
