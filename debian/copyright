@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtwebkit-examples-opensource-src
-Source: https://download.qt.io/official_releases/qt/*/submodules/
+Source: https://download.qt.io/community_releases/
 Files-Excluded: examples/webkitwidgets/fancybrowser/jquery.min.js
 
 Files: *
