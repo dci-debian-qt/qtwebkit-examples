@@ -1,9 +1,10 @@
-qtwebkit-examples-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
+  * Team upload.
   * New upstream release.
   * Update debian/watch to reflect the new upstream location of the tarball.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:07:36 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Jun 2017 09:29:42 -0500
 
 qtwebkit-examples-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
