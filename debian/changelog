@@ -5,6 +5,24 @@ qtwebkit-examples-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:07:36 -0500
 
+qtwebkit-examples-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
+
+  * Repack the tarball to remove the non-DFSG file.
+  * Update the debian/watch file.
+  * Migrate to an automatic dbgsym package.
+  * Drop unused pkg-kde-tools build-dependency.
+  * Update debian/copyright.
+  * Use packaged jQuery properly (packaged_jquery.diff).
+  * Bump Qt build-dependencies to 5.7.1 final.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Jan 2017 22:03:38 +0300
+
+qtwebkit-examples-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 09:11:14 -0300
+
 qtwebkit-examples-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   * New upstream snapshot.
