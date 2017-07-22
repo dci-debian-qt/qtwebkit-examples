@@ -2,6 +2,7 @@ qtwebkit-examples-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch to track official releases again.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Jul 2017 10:35:06 +0300
 
