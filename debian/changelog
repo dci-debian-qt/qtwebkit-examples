@@ -1,11 +1,11 @@
-qtwebkit-examples-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
+qtwebkit-examples-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch to track official releases again.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Jul 2017 10:35:06 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Jul 2017 18:49:14 -0300
 
 qtwebkit-examples-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
