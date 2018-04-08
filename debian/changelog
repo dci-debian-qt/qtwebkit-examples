@@ -1,3 +1,10 @@
+qtwebkit-examples-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * Add my name to Uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:47:43 -0500
+
 qtwebkit-examples-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
   * Release to unstable.
